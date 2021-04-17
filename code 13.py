@@ -5,3 +5,5 @@ for i in arr:
 
 for i in arr:
     print(i, end=' ')
+
+
