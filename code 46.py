@@ -1,8 +1,4 @@
-# Check for python version
+from random import randint
 
-from platform import python_implementation, python_version_tuple
-
-print(python_implementation())
-
-for i in python_version_tuple():
-    print(i)
+for i in range(2):
+    print(randint(1, 2), end='')
